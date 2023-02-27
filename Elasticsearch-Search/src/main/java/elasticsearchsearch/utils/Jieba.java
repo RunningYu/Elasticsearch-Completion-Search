@@ -18,6 +18,7 @@ public class Jieba {
         JiebaSegmenter jieba = new JiebaSegmenter();
         List<String> list = jieba.sentenceProcess(text);
         Set<String> wordList = new HashSet<>();
+		wordList.add(text);
         for ( String word : list ) {
             wordList.add( word );
         }

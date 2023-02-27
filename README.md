@@ -14,7 +14,7 @@
 
 # 使用说明：
 
-QRLYElasticsearch 中有三个接口：buildIndex、deleteIndex、getPhraseOfKeyword、getResultListByKeyword_Page_Sort
+QRLYElasticsearch 中有四个接口：buildIndex、deleteIndex、getPhraseOfKeyword、getResultListByKeyword_Page_Sort
 
 - ```
   void buildIndex(String indexName, String[] filename);

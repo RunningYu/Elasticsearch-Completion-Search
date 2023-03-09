@@ -132,7 +132,7 @@ public class QRLYElasticsearchImpl implements QRLYElasticsearch {
         return objects;
     }
 
-    // 反序列化获取博文列表
+    // 反序列化
     public List<Object> hitsToBlogList( SearchHit[] hits ) {
         List<Object> blogList = new ArrayList<>();
         // 反序列

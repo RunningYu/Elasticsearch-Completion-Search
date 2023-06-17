@@ -4,7 +4,7 @@
 
 # <font color="red">**使用该组件的前提需要做得东西**：</font>
 
-- 自己先在云服务器上（推荐）或是本地安装好<mark>**Elasticsearch**</mark>，然后把ip和端口信息填在yml中的es: url上.
+- 自己先在云服务器上（推荐）或是本地安装好<mark>**Elasticsearch**</mark>，然后把ip和端口信息在自己的yml配种文件中的es: url填上.
 - 在云服务器上下载好<mark>中文分词器</mark>和<mark>pinyin分词器</mark>组件，整合好.
 - 在Spring Boot项目中的Application启动类上加上 <mark>@ComponentScan("elasticsearchsearch.**")</mark>注解
 
